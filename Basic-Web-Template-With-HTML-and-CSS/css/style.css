@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Row-1 CSS Start */
+#row1{
+    height: 50px;
+    width: 100%;
+    background: #0C3646;
+}
+.header_section{
+    width: 65%;
+    margin: 0 auto;
+    height: 100%;
+}
+.logo{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.logo img {
+    height: 40px;
+    padding-top: 5px;
+}
+.menu{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.menu ul{}
+.menu ul li {
+    float: left;
+    list-style: none;
+    line-height: 50px;
+    margin-left: 30px;
+}
+.menu ul li  a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+/* Row-1 CSS End */
+
+/* Row-2 CSS Start */
+#row2{
+    height: 600px;
+    width: 100%;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: round;
+}
+.banner_section{
+    text-align: center;
+    color: #fff;
+}
+.banner_section h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 250px;
+    padding-bottom: 10px;
+}
+.banner_section p{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+/* Row-2 CSS End */
+
+/* Row-3 CSS Start */
+#row3{}
+.wedo_section{}
+.wedo_title{}
+.wedo_title h1{}
+.wedo_item_all{}
+.wedo_item{}
+.wedo_item i{}
+.wedo_item h2{}
+.wedo_item p{}
+/* Row-3 CSS End */
+
+/* Row-4 CSS Start */
+#row4{}
+.project_section{}
+.project_title{}
+.project_title h2{}
+.project_item_all{}
+.project_item{}
+.project_item img{}
+.project_item h2{}
+.project_item p{}
+/* Row-4 CSS End */
+
+/* Row-5 CSS Start */
+#row5{}
+.youget_section{}
+.youget_title{}
+.youget_title h2{}
+.youget_item_all{}
+.youget_item{}
+.youget_item i{}
+.youget_item h4{}
+.youget_item p{}
+/* Row-5 CSS End */
+
+/* Row-6 CSS Start */
+#row6{}
+.customer_section{}
+.customer_title{}
+.customer_title h2{}
+.customer_item_all{}
+.customer_item{}
+.customer_item img{}
+.customer_item p{}
+.customer_item h4{}
+/* Row-6 CSS End */
+
+/* Row-7 CSS Start */
+
+#row7{}
+.footer_section{}
+.footer_item_all{}
+.footer_item{}
+.footer_item h4{}
+.footer_item p{}
+.footer_item ul{}
+.footer_item ul li{}
+.footer_item i{}
+
+/* Row-7 CSS End */
