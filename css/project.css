@@ -21,6 +21,7 @@
 .logo img {
     height: 40px;
     padding-top: 5px;
+    padding-left:45px ;
 }
 .menu{
     width: 70%;
@@ -50,51 +51,56 @@
 #row2{
     height: 600px;
     width: 100%;
-    background: url(.banner.jpg);
+    background: url(../pro.img/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-repeat: round;
+    
 }
-.banner_section{
+.banner-section{
     text-align: center;
     color: #fff;
 }
-.banner_section h1{
-    font-size: 50px;
+.banner-section h1{
+    font-size: 90px;
     text-transform: uppercase;
     padding-top: 250px;
     padding-bottom: 10px;
+    text-align: center;
+    color: aqua;
 }
-.banner_section p{
-    font-size: 16px;
+.banner-section p{
+    font-size: 25px;
+    color:aqua;
     text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
 }
 /* Row-2 CSS End */
 
 /* Row-3 CSS Start */
 #row3{
-    height: 400px;
+    height: 500px;
     width: 100%;
-    background: #fff;
+    background:rgba(16, 39, 64, 0.3);
 }
 .wedo_section{
-    width: 65%;
-    margin: 0 auto;
+    width: 80%;
+    margin: auto;
     height: 100%;
 }
 .wedo_title{
-     text-align: center;
-     padding: 30px 0px;
-     font-size: 30px;
-     text-transform: uppercase;
-
+     
 }
-.wedo_title h1{}
+.wedo_title h1{
+    text-align: center;
+    font-size:  80px;
+    padding-top:50px; 
+}
 .wedo_item_all{
-    padding: 50px 0px;
+    padding: 60px 0px;
 }
 .wedo_item{
-    width: 29%;
+    width: 30%;
     float: left;
     text-align: center;
     margin-left: 30px;
@@ -115,37 +121,47 @@
 
 /* Row-4 CSS Start */
 #row4{
-    height: 630px;
-    width: 100%;
-    background: #fff;
+    width:100%;
+    height: 500px;
+    background-color: #6e8187;
+    
 }
 .project_section{
-    width: 65%;
-    margin: 0 auto;
+    width: 80%;
+    margin: auto;
     height: 100%;
-    padding: 50px 0px;
+    
 }
-.project_title{}
+.project_title{
+    
+}
 .project_title h2{
-    font-size: 30px;
     text-align: center;
-    padding: 30px 0px;
-    text-transform: uppercase;
+    font-size:50px;
+    padding-top:40px;  
+    
 }
 .project_item_all{
 
+    padding: 60px 0px;
 }
-.project_item{
-    width: 29%;
+.project_items{
+    width:30%;
     float: left;
+    text-align: center;
     margin-left: 30px;
+    
 }
-.project_item img{
-    width: 100%;
-    height: 200px;
+.project_items img{
+    width:200px;
+    height:150px;
+    
 }
-.project_item h2{}
-.project_item p{
+.project_items h1{
+    font-size: 27px;
+    padding-bottom: 30px;
+}
+.project_items p{
     text-align: justify;
 }
 /* Row-4 CSS End */
@@ -154,15 +170,24 @@
 #row5{
     height: 450px;
     width: 100%;
-    background-color: rgba(102, 132, 165, 0.2);
-}  
+    background:url(https://assets.techcircle.in/uploads/article-image/2019/12/images/20842-106927239-xll334.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: round;
+} 
+.overlay{
+    height:80%;
+    width:100%;
+    background-color:rgba(67, 85, 98, 0.2);
+    position: absolute;
+} 
 .youget_section{
     width: 65%;
     margin: 0 auto;
     height: 100%;
 }
 .youget_title{
-    text-align: center;s
+    text-align: center;
     padding: 30px 0px;
     font-size: 30px;
     text-transform: uppercase;
@@ -184,25 +209,29 @@
 }
 .youget_item i{
 
-    font-size: 33px;
-    padding-bottom: 20px;
-    color: rgb(248, 179, 179);
+   font-size: 33px;
+    padding-bottom: 15px;
+    color: rgb(202, 33, 104);
 }
-.youget_item h4{}
-.youget_item p{}
+.youget_item h2{
+    padding-bottom: 20px;
+}
+.youget_item p{
+    text-align: justify;
+}
 /* Row-5 CSS End */
 
 /* Row-6 CSS Start */
 #row6{
-    height: 630px;
+    height: 460px;
     width: 100%;
-    background: #fff;
+    background: #845555;
 }
 .customer_section{
-    width: 65%;
-    margin: 0 auto;
+    width: 95%;
+    margin: 0px;
     height: 100%;
-    padding: 50px 0px;
+    padding-left: 10px;
 
 }
 .customer_title{
@@ -210,7 +239,7 @@
 }
 .customer_title h2{
     text-align: center;
-    padding: 30px 0px;
+    padding: 30px ;
     font-size: 30px;
     text-transform: uppercase;
 }
@@ -218,9 +247,10 @@
     
 }
 .customer_item{
-    width: 20%;
+    width:17%;
     float: left;
-    margin-left: 30px;
+    margin-left: 10px;
+    padding-left: 14px;
 }
 .customer_item img{
     width: 100%;
@@ -236,28 +266,53 @@
 /* Row-7 CSS Start */
 
 #row7{
-    height: 630px;
+    height: 800px;
     width: 100%;
-    background: rgba(57, 71, 106, 0.2)
+    background: rgba(29, 62, 147, 0.2);
 }
 .footer_section{
-    width: 65%;
-    margin: 0 auto;
+    width:95%;
+    margin: auto;
     height: 100%;
-    padding: 50px 0px;
+    padding: 20px;
 }
-.footer_item_all{}
+.footer_item_all{
+
+}
 .footer_item{
     width: 17%;
     float: left;
-    margin-left: 81px;
+    margin-left: 40px;
+    padding-left: 20px;
+
 }
-.footer_item h4{}
+.footer_item h4{
+    font-size: 25px;
+    color:#F59A63;
+    text-transform: capitalize;
+    
+}
+.footer_item ul{
+border-bottom: #F59A63;
+}
 .footer_item p{
     text-align: justify;
 }
-.footer_item ul{}
-.footer_item ul li{}
-.footer_item i{}
+.footer_item ul{
+
+}
+.footer_item ul li{
+    list-style:none;
+     width: 199px;
+     border-bottom:double solid blue ;
+ 
+}
+.footer_item i{ 
+    font-size: 25px;
+    height:50px;
+    width:50px;
+    background:#fff;
+
+}
 
 /*row 7 end with css*/
